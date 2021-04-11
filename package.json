@@ -1,0 +1,35 @@
+{
+  "name": "crud-rest-api",
+  "version": "1.0.0",
+  "description": "CRUD REST API example",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config index.js",
+    "start": "node -r dotenv/config ./app/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarqueslopez/crud-rest-api.git"
+  },
+  "keywords": [
+    "crud",
+    "rest",
+    "api"
+  ],
+  "author": "smarqueslopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smarqueslopez/crud-rest-api/issues"
+  },
+  "homepage": "https://github.com/smarqueslopez/crud-rest-api#readme"
+}
